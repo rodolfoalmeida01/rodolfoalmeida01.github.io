@@ -175,6 +175,78 @@ a p {
 }
 
 
+/* ==========================================================================
+   Intro
+   ========================================================================== */
+p.lead {
+  font-size: 2.2rem;
+  margin: 0.3em 0 1em;
+}
+
+button.read-more {
+  background: transparent;
+  border: none;
+  color: #0000ff;
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.more-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.more-text.is-open {
+  max-height: 300vh;
+  overflow: hidden;
+}
+
+.more-text ul {
+  padding-left: 2em;
+}
+
+.more-text li {
+  font-size: 1.6rem;
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.contacts {
+  margin-top: 5rem;
+}
+
+.contacts p {
+  display: inline;
+  margin: 0;
+  padding: 0.2em;
+  background: #00f;
+  color: #fff;
+}
+
+.contacts p a {
+  color: #ffffff;
+}
+
+@media (min-width: 600px) {
+  .more-text {
+    flex-direction: row;
+  }
+  .more-text__block {
+    flex: 50% 0 0;
+  }
+  .more-text__block:nth-child(even) {
+    padding-left: 15px;
+  }
+  .more-text__block:nth-child(odd) {
+    padding-right: 15px;
+  }
+}
 
 
 
