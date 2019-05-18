@@ -248,13 +248,51 @@ button.read-more {
   }
 }
 
+/* ==========================================================================
+   Thumbnails
+   ========================================================================== */
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
+  main article {
+    flex: auto;
+    margin-bottom: 5rem;
+  }
 
+  main article h2 {
+    margin-bottom: 0.2em;
+    margin-top: 0;
+  }
 
+  main article p {
+    margin-bottom: 0;
+  }
 
+  main article figure {
+    border: 1px solid #0000ff;
+    margin: 0;
+    padding: 3px;
+  }
 
+  main article figure img {
+    max-width: 100%;
+    height: auto;
+  }
 
-
+  @media (min-width: 600px) {
+    main article {
+      flex: 50% 0 0;
+    }
+    main article:nth-child(even) {
+      padding-left: 15px;
+    }
+    main article:nth-child(odd) {
+      padding-right: 15px;
+    }
+  }
 
 
 
