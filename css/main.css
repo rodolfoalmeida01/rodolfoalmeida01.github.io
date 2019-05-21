@@ -196,10 +196,10 @@ button.read-more {
 }
 
 .more-text {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease;
-  display: flex;
+  /* max-height: 0; */
+  /* overflow: hidden; */
+  /* transition: max-height 0.4s ease; */
+  display: none;
   flex-direction: column;
 }
 
@@ -379,7 +379,7 @@ button.read-more {
   clear: both;
 }
 
- 
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -397,7 +397,7 @@ button.read-more {
     /* Style adjustments for high resolution devices */
 }
 
- 
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -473,5 +473,3 @@ button.read-more {
         page-break-after: avoid;
     }
 }
-
-
