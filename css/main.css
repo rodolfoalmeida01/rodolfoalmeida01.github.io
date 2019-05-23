@@ -179,7 +179,7 @@ a p {
    Intro
    ========================================================================== */
 p.lead {
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   margin: 0.3em 0 1em;
 }
 
@@ -225,12 +225,14 @@ button.read-more {
   display: inline;
   margin: 0;
   padding: 0.2em;
-  background: #00f;
   color: #fff;
+  outline-style: solid;
+  outline-color: #00f;
+  outline-width: thin;
 }
 
 .contacts p a {
-  color: #ffffff;
+  color: #00f;
 }
 
 @media (min-width: 600px) {
