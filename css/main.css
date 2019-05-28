@@ -275,6 +275,21 @@ main article figure {
    padding: 3px;
 }
 
+main article figure.autoscroll {
+   width: 100%;
+   height: 0;
+   padding-bottom: 58.33333%;
+   overflow: hidden;
+}
+
+main article figure img {
+   max-width: 100%;
+   height: auto;
+}
+
+main article figure.autoscroll img {
+  animation: slide-top 8s infinite;
+}
   main article figure img {
     max-width: 100%;
     height: auto;
