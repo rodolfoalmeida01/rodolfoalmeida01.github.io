@@ -290,10 +290,14 @@ main article figure img {
 main article figure.autoscroll img {
   animation: slide-top 8s infinite;
 }
-  main article figure img {
-    max-width: 100%;
-    height: auto;
-  }
+
+main article video {
+   border: 1px solid #0000ff;
+   margin: 0;
+   padding: 3px;
+   width: 100%;
+   height: auto;
+}
 
 @media (min-width: 600px) {
    main article {
