@@ -290,9 +290,104 @@ main article figure {
    main article:nth-child(odd) {
       padding-right: 15px;
    }
+}
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
+@-webkit-keyframes slide-top {
+ 0% {
+   -webkit-transform: translateY(300px);
+           transform: translateY(300px);
+ }
+ 18% {
+   -webkit-transform: translateY(0);
+           transform: translateY(0);
+ }
+ 20% {
+   -webkit-transform: translateY(0%);
+           transform: translateY(0%);
+ }
+ 38% {
+   -webkit-transform: translateY(-25%);
+           transform: translateY(-25%);
+ }
+ 40% {
+   -webkit-transform: translateY(-25%);
+           transform: translateY(-25%);
+ }
+ 58% {
+   -webkit-transform: translateY(-50%);
+           transform: translateY(-50%);
+ }
+ 60% {
+   -webkit-transform: translateY(-50%);
+           transform: translateY(-50%);
+ }
+ 78% {
+   -webkit-transform: translateY(-75%);
+           transform: translateY(-75%);
+ }
+ 80% {
+   -webkit-transform: translateY(-75%);
+           transform: translateY(-75%);
+ }
+ 98% {
+   -webkit-transform: translateY(-100%);
+           transform: translateY(-100%);
+ }
+ 100% {
+   -webkit-transform: translateY(-100%);
+           transform: translateY(-100%);
+ }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
   }
-
-
+  18% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  20% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  38% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  40% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  58% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  60% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  78% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  80% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  98% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
 
 
 
