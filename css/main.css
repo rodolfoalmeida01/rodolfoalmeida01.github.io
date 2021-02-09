@@ -213,17 +213,18 @@ button.read-more {
 }
 
 .more-text li {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: 'IBM Plex Mono', sans-serif;
 }
 
 .contacts {
   margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 .contacts p {
   display: inline;
-  margin: 0;
+  margin: 4px;
   padding: 0.2em;
   color: #00f;
   outline-style: solid;
