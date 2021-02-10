@@ -230,6 +230,7 @@ button.read-more {
   outline-style: solid;
   outline-color: #00f;
   outline-width: thin;
+  line-height: 2em;
 }
 
 @media (min-width: 600px) {
