@@ -146,13 +146,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4.2rem;
+  font-size: 5.2rem;
   font-weight: 300;
 }
 
 h2 {
   font-size: 2.3rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 p {
@@ -164,13 +164,18 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #0000ff;
+  background-color: #ffec05;
+}
+
 a p {
   color: #000000;
 }
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 5.8rem;
+    font-size: 6.8rem;
   }
 }
 
@@ -209,12 +214,17 @@ button.read-more {
 }
 
 .more-text ul {
-  padding-left: 2em;
+  font-size: 1.2em;
+  font-family: 'IBM Plex Mono', sans-serif;
+  padding-left: 0em;
+  color: #00f;
+
 }
 
 .more-text li {
   font-size: 1.4rem;
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #000;
 }
 
 .contacts {
@@ -225,12 +235,13 @@ button.read-more {
 .contacts p {
   display: inline;
   margin: 4px;
-  padding: 0.2em;
+  padding: 0.4em;
   color: #00f;
   outline-style: solid;
   outline-color: #00f;
   outline-width: thin;
-  line-height: 2em;
+  line-height: 2.8em;
+  border-radius:10px;
 }
 
 @media (min-width: 600px) {
@@ -273,6 +284,7 @@ margin-bottom: 0;
 
 main article figure {
    border: 1px solid #0000ff;
+   border-radius: 10px;
    margin: 0;
    padding: 3px;
 }
@@ -295,6 +307,7 @@ main article figure.autoscroll img {
 
 main article video {
    border: 1px solid #0000ff;
+   border-radius: 10px;
    margin: 0;
    padding: 3px;
    width: 100%;
