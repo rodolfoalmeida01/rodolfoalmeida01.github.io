@@ -130,6 +130,7 @@ body {
   margin: 0 auto;
   max-width: 1080px;
   width: 100%;
+  background-color:#fff9f2;
 }
 
 main {
@@ -140,14 +141,17 @@ main {
    Typography
    ========================================================================== */
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: 'IBM Plex Sans', sans-serif;
   color: #0000ff;
 }
 
 h1 {
-  font-size: 5.2rem;
+  font-family: 'Instrument Serif', serif;
+  font-size: 6.8rem;
   font-weight: 300;
+  color:#00f;
+  line-height: 1;
 }
 
 h2 {
@@ -175,7 +179,7 @@ a p {
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 6.8rem;
+    font-size: 7.4rem;
   }
 }
 
@@ -228,7 +232,7 @@ button.read-more {
 }
 
 .contacts {
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -294,6 +298,7 @@ main article figure.autoscroll {
    height: 0;
    padding-bottom: 58.33333%;
    overflow: hidden;
+   background-color:white;
 }
 
 main article figure img {
