@@ -38,45 +38,6 @@ textarea {
 bd-email {
   color: blue;
 }
-.embeddable-buttondown-form {
-  color: blue;
-  font-size: 1.6rem;
-  margin-top: 1em;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-label {
-  min-width: 300px;
-}
-input[type=email] {
-  border-bottom: 3px solid yellow;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  width:100%
-}
-input:focus {
-  outline: none;
-}
-input[type=submit] {
-  font-size: 1.2rem;
-  font-family: 'IBM Plex Mono', sans-serif;
-  color: white;
-  text-transform: uppercase;
-  background-color: blue;
-  padding: 0.4em;
-  padding-left:1em;
-  padding-right:1em;
-  border-radius: 10px;
-  border: none;
-}
-input[placeholder] {
-  font-size: 1em;
-  color: black;
-  font-family: 'IBM Plex Mono', sans-serif;
-  text-align: left;
-}
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -162,49 +123,6 @@ button.read-more {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-}
-.embeddable-buttondown-form {
-  color: blue;
-  font-size: 1.8rem;
-  margin-top: 1em;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-label {
-  min-width: 25%;
-}
-input[type=email] {
-  border-bottom: 3px solid yellow;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  width:100%
-}
-input:focus {
-  outline: none;
-}
-input[type=submit] {
-  font-size: 1.3rem;
-  font-family: 'IBM Plex Mono', sans-serif;
-  color: white;
-  text-transform: uppercase;
-  background-color: blue;
-  padding: 0.4em;
-  padding-left:1em;
-  padding-right:1em;
-  border-radius: 10px;
-  margin-left:10px;
-  border: none;
-}
-input[placeholder] {
-  font-size: 1em;
-  color: black;
-  font-family: 'IBM Plex Mono', sans-serif;
-  text-align: left;
-}
-input:focus {
-  outline: none;
 }
 .more-text {
   display: none;

@@ -23,27 +23,26 @@ pre {
 }
 .embeddable-buttondown-form {
   color: blue;
-  font-size: 1.6rem;
-  margin-top: 1em;
-  display: flex;
+  font-size: 2rem;
+  margin-top: 2em;
+  display: block;
   align-items: flex-end;
-  justify-content: space-between;
+  margin-bottom: 2em;
 }
 label {
-  min-width: 300px;
+  margin-bottom:3em;
+  margin-right: 0.5rem;
 }
 input[type=email] {
+  border: none;
   border-bottom: 3px solid yellow;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  width:100%
 }
 input:focus {
+  background-color: yellow;
   outline: none;
 }
 input[type=submit] {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: 'IBM Plex Mono', sans-serif;
   color: white;
   text-transform: uppercase;
@@ -55,10 +54,12 @@ input[type=submit] {
   border: none;
 }
 input[placeholder] {
-  font-size: 1em;
+  font-size: 0.9em;
   color: black;
+  opacity: 1;
   font-family: 'IBM Plex Mono', sans-serif;
   text-align: left;
+  font-weight:100;
 }
 a {
   background-color: transparent;
@@ -117,10 +118,6 @@ select {
 }
 bd-email {
   color: blue;
-}
-embeddable-buttondown-form {
-  margin-top:600px;
-  margin-bottom:300px;
 }
 button,
 [type="button"],
