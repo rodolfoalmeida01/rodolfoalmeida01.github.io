@@ -15,8 +15,8 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
+  border-top: 2px dotted #adadad;
+  margin: 3em 0;
   padding: 0;
 }
 audio,
@@ -67,6 +67,47 @@ body {
   max-width: 1080px;
   width: 100%;
   background-color:#ffffff;
+}
+#landing-page {
+  margin: 150px auto;
+  max-width: 630px;
+  width: 100%;
+  background-color:#ffffff;
+}
+#landing-page p {
+  font-size: 1.9rem;
+}
+#landing-page .disclaimer {
+  font-size: 1.6rem;
+
+  font-family: 'Merriweather', serif;
+}
+#landing-page a {
+  color:#00f;
+}
+#landing-page ul {
+  font-size: 2rem;
+  list-style-type: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:500;
+}
+#landing-page li {
+  margin: 3rem auto;
+}
+#landing-page ul li::before {
+  content: "";
+  color: #ffec05;
+}
+#landing-page .contacts p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Merriweather', serif;
+  font-size:1.65rem;
+}
+#landing-page footer {
+  list-style-type: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:500;
 }
 main {
   margin: 100px 0 0;
