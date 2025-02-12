@@ -51,9 +51,12 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px dotted #adadad;
+  margin: 3em 0;
+  padding: 0;
 }
 
 /**
