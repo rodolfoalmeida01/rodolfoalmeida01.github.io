@@ -233,6 +233,16 @@ a p {
   }
 }
 
+.project-year {
+  display: inline-block;
+  background-color: #eeeeee;
+  color: #363636;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.3rem;
+  padding: 0.2em 0.6em;
+  margin-right: 0.6em;
+  line-height: 1.4;
+}
 
 /* ==========================================================================
    Intro
